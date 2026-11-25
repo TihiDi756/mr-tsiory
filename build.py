@@ -3,7 +3,7 @@
 Toutes les coordonnées et textes à compléter sont en haut de ce fichier."""
 import os, html, re
 E = "andriamanjarisoatsiory@gmail.com"
-SITE = "https://Mr-Tsiory.netlify.app"   # À REMPLACER par l'URL Netlify ou le domaine réel
+SITE = "https://mr-tsiory.netlify.app"   # À REMPLACER par l'URL Netlify ou le domaine réel
 TEL = "+261389722961"        # À COMPLÉTER : numéro professionnel (ex. +261 ...)
 WHATSAPP = "+261376790839"   # À COMPLÉTER : numéro WhatsApp (format international sans +)
 TAGLINE = "Organiser. Contrôler. Piloter. Progresser."
