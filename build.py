@@ -158,7 +158,12 @@ def build_pages():
     hero = f'''<section class="hero"><div class="wrap heroin"><div><h1>Organisez votre entreprise. Maîtrisez vos opérations. Pilotez vos performances.</h1>
 <p class="lead">MR TSIORY accompagne les entreprises dans leur organisation, leur gestion opérationnelle et leur transformation numérique grâce à des méthodes professionnelles et des systèmes de gestion adaptés à leurs activités.</p>
 <p class="btns">{btn("/services/","Découvrir nos services","gold")}{btn("/diagnostic/","Demander un diagnostic","ghost")}</p></div>
-<figure class="ph" role="img" aria-label="Emplacement réservé : photographie professionnelle d'un tableau de bord ou d'une situation de travail"><small>/images/hero.webp</small></span></figure></div></section>'''
+<figure class="ph">
+  <img src="/images/hero.webp" alt="Photographie professionnelle d'un tableau de bord ou d'une situation de travail" loading="lazy">
+</figure>
+</div>
+</section>
+'''
     body = hero + sec(f'<h2>Une entreprise peut travailler beaucoup sans toujours maîtriser ses performances.</h2><ul class="grid2 plain">{"".join(f"<li>{e(p)}</li>" for p in probs)}</ul><p class="note">Ces difficultés ne nécessitent pas toujours davantage de travail. Elles nécessitent souvent une meilleure organisation et des systèmes de gestion adaptés.</p>','alt')
     body += sec(f'<h2>Notre réponse : trois piliers</h2><div class="grid3">{"".join(f"<article class=card><h3>{a}</h3><p>{b}</p></article>" for a,b in piliers)}</div>')
     body += sec(f'<h2>Nos services</h2><div class="grid3">{cards}</div>','alt')
