@@ -159,7 +159,7 @@ def build_pages():
 <p class="lead">MR TSIORY accompagne les entreprises dans leur organisation, leur gestion opérationnelle et leur transformation numérique grâce à des méthodes professionnelles et des systèmes de gestion adaptés à leurs activités.</p>
 <p class="btns">{btn("/services/","Découvrir nos services","gold")}{btn("/diagnostic/","Demander un diagnostic","ghost")}</p></div>
 <figure class="ph">
-  <img src="/images/hero.webp" alt="Photographie professionnelle d'un tableau de bord ou d'une situation de travail" loading="lazy">
+  <img src="main/images/hero.webp" alt="Photographie professionnelle d'un tableau de bord ou d'une situation de travail" loading="lazy">
 </figure>
 </div>
 </section>
